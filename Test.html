@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
+<head>
+	<title>jQuery plugin: Tablesorter 2.0</title>
+	<script type="text/javascript" src="../jquery-latest.js"></script>
+	<script type="text/javascript" src="../__jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="js/chili/chili-1.8b.js"></script>
+	<script type="text/javascript" src="js/docs.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$("#tablesorter-demo").tablesorter({sortList:[[0,0],[2,1]], widgets: ['zebra']});
+		$("#options").tablesorter({sortList: [[0,0]], headers: { 3:{sorter: false}, 4:{sorter: false}}});
+	});
+	</script>
+</head>
+<body>
+</body>
+</html>
